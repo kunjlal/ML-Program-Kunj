@@ -1,0 +1,20 @@
+The Basics
+
+Python is a general-purpose programming language that was named after Monty Python. It is simple and incredibly readable since it closely resembles the English language. But still, why should you use Python? Python is a language that has a use in nearly every domain you can think of. Its official website will give you an overview of this. In addition to this, its simplicity, as well as the way it ensures tasks can be performed using fewer lines of code, is encouraging many developers across the world to take it up. 
+
+Let’s now go through some basic data types and also look at some basic operations that can be carried out in Python. The file used in the video can be downloaded from below. We recommend that you download this file and follow the same along with the video. You can add cells in the notebook to try out various instructions that are taught, to familiarise yourself better.
+
+Coding Console Questions: A Brief Overview
+
+Below is one of the many coding-based practice questions that you'll see throughout this module. 
+
+Each question has a problem description. Typically, you will write the code in the 'Code' section, run it, verify it (against sample test cases), and finally submit it.
+In the Code section, you are given some prewritten code (which loads some libraries, reads some data etc.). You have to write the code indicated by a comment such as 'write your code here'. You need to print the output so that the evaluation engine can verify it against the test cases.
+
+After writing the code, you can 'Run Code' and see the output. Running the code only prints the output of your code; no test cases are run when you click 'Run Code'.
+
+You can verify your answer against a sample test case by clicking 'Verify'. If the test case is passed, it tells you so; if it doesn't, it compares your output with the expected output so that you can change your code accordingly. This is provided to help you verify your code before finally submitting it.
+
+Finally, when you have verified your code, you can 'Submit' it. This runs some (hidden) test cases which are similar to the ones in 'Verify'. The result is indicated by an 'Accepted' / 'Rejected' text at the bottom-left. You can click '(details)' to read about the result. 
+
+Note that these problems are non-graded.
