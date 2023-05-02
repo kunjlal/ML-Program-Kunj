@@ -18,3 +18,19 @@ You can verify your answer against a sample test case by clicking 'Verify'. If t
 Finally, when you have verified your code, you can 'Submit' it. This runs some (hidden) test cases which are similar to the ones in 'Verify'. The result is indicated by an 'Accepted' / 'Rejected' text at the bottom-left. You can click '(details)' to read about the result. 
 
 Note that these problems are non-graded.
+
+.................................................................................
+Python_1
+Description
+Remove the leading spaces from the string  input_str = '         This is my first code'
+
+
+# Reading the input as a string; ignore the following two lines
+import ast, sys
+input_str = sys.stdin.read()
+
+# Write your code here
+final_str = input_str.strip()
+print(final_str)
+..........................................................................................
+
