@@ -318,3 +318,11 @@ Alt + Enter: To execute the code in the current cell and insert new cell below
 Shift + Tab: To get a brief documentation of the object that you have just typed in the coding cell
 Ctrl + Shift + -: To split the cell at the cursor
 Shift + M: To merge selected cells
+
+.........................................................
+Lists
+Data structures are a special way of storing and accessing data. Every programming language has some built-in data structures such as arrays, lists, dictionaries etc.
+
+ 
+
+In this module, we will cover the most widely used Python data structures, starting with lists. The Jupyter notebook used in the video can be downloaded from below. Please download the notebook, and follow it along with the lecture.
