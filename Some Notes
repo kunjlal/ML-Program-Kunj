@@ -326,3 +326,15 @@ Data structures are a special way of storing and accessing data. Every programmi
  
 
 In this module, we will cover the most widely used Python data structures, starting with lists. The Jupyter notebook used in the video can be downloaded from below. Please download the notebook, and follow it along with the lecture.
+
+
+List_remove_append
+Description
+Remove SPSS from input_list=['SAS', 'R', 'PYTHON', 'SPSS'] and add 'SPARK' in its place.
+Execution Time Limit
+..................................
+input_list=['SAS', 'R', 'PYTHON', 'SPSS']
+input_list.remove('SPSS')
+input_list.append('SPARK')
+print(input_list)
+.....................................
