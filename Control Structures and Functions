@@ -1,0 +1,28 @@
+Welcome to the second session — 'Control Structures and Functions'. 
+
+ 
+
+Control structures are the essence of programming since they help computers do what they do best — automate repetitive tasks intelligently. The most common control structures are if-else statements, for and while loops, and (specific to Python) list and dictionary comprehensions. This session will cover all of these.
+
+ 
+
+Another crucial thing you will learn in Session 2 is to write your own functions. Almost every powerful program — whether a web app or a machine learning algorithm — is basically a set of functions written to perform specific tasks. 
+
+ 
+
+In this session
+Control structures
+If-elif-else
+For loop
+While loop
+List comprehensions
+Dictionary comprehensions
+Functions
+Map
+Filter
+Reduce
+ 
+
+Guidelines for in-module questions
+The in-video and in-content questions in this session are not graded. All the other activities are non-graded as well and do not carry any weight in the assessments.
+
