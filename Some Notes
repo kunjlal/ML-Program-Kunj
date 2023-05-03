@@ -338,3 +338,87 @@ input_list.remove('SPSS')
 input_list.append('SPARK')
 print(input_list)
 .....................................
+
+Tuples
+Tuples are data structures that are similar to lists in all aspects except in the way they are declared and how much they allow themselves to be modified. A tuple once created cannot be modified.
+
+ 
+
+As you saw in the previous segment, lists can be changed, and sometimes when you're storing important information in a list and using it somewhere else in your code, you run the risk of accidentally modifying the list and losing data or corrupting it. Tuples help you solve this problem
+
+........................................
+Add the element ‘Python’ to a tuple input_tuple = ('Monty Python', 'British', 1969). Since tuples are immutable, one way to do this is to convert the tuple to a list, add the element, and convert it back to a tuple.
+
+To learn how to convert a list to a tuple, search for it on Google / Stack Overflow etc.
+.........................
+import ast,sys
+input_str = sys.stdin.read()
+input_tuple = ast.literal_eval(input_str)
+list1=list(input_tuple)
+list1.append('Python')
+print(tuple(list1))
+# Write your code here
+
+# Make sure to name the final tuple 'tuple_2'
+#print(tuple_2)
+...............................
+
+Yes, A tuple can contain mutable objects.
+
+t[3] = 5
+✓ Correct
+Feedback:
+Tuples cannot be modified.
+...........................
+Dictionaries
+The first thing that comes to mind when you hear about dictionaries is the Oxford dictionary, where you can look up meanings of words. So, you can imagine how dictionaries work. A dictionary is a collection of words along with their meanings or simpler explanations.
+
+ 
+
+At a broader level, you could call a dictionary a mapping of words with their synonyms or meanings. Let's learn about Python dictionaries from the professor.
+
+..................................
+Description
+From a Dictionary input_dict={'Name': 'Monty', 'Profession': 'Singer' }, get the value of a key ‘Label’ which is not a part of the dictionary, in such a way that Python doesn't hit an error. If the key does not exist in the dictionary, Python should return 'NA'.
+..................................
+import ast,sys
+input_str = sys.stdin.read()
+input_dict = ast.literal_eval(input_str)
+if('Label' in input_dict.keys()):
+
+    answer = input_dict['Label']
+
+else:
+
+    answer='NA'
+
+print(answer)
+...........................................
+
+
+d = {}
+✓ Correct
+Feedback:
+It will create an empty dictionary.
+
+d = {'a':1, 'b':2}
+✓ Correct
+Feedback:
+This a one of the method to create a dictionary.
+
+d = dict(a=1, b=2)
+✓ Correct
+
+Sets
+The last type of data structure we will look at is 'sets'. Sets are a good way to get the unique elements out of a collection or to find common elements in various collections. Using sets is quick and can help solve tasks requiring deduplication. Let's have Professor Raghavan explain this to us.
+
+To conclude, in this session, you learnt about the most important Python data structures, and you now have an idea of how they can be used. The various types of data structures that you learnt about are —
+
+Lists
+Tuples
+Dictionaries
+Sets
+Set() removes duplicates and return the unique values.
+
+
+
