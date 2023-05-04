@@ -26,3 +26,45 @@ Reduce
 Guidelines for in-module questions
 The in-video and in-content questions in this session are not graded. All the other activities are non-graded as well and do not carry any weight in the assessments.
 
+
+Loops
+Looping is an important part of carrying out operations — whether it is looping over a range of numbers, numbers in an array, items in a list, or keys and values in a dictionary, etc. You must be familiar with the use of loops in Python.
+
+ 
+
+Python makes looping much easier as the looping construct resembles the framework of a standard English sentence, making it easier to understand at a glance. You will notice this yourself as you go through the following video.
+
+Iterations can be over any collection. The iteration in a string goes over each character; however, in lists and tuples, the iteration goes over each item in turn, and in dictionaries, you can iterate over both keys and values or any one of them. Another keyword — 'enumerate' — can be used to introduce another iterating variable that counts the iterations. Note that it starts with 0.
+
+ 
+
+Other commands that can be used are 'break', 'continue', and 'pass'. To see the differences between them, use the following piece of code:
+
+ 
+
+for i in range(100):
+    print(i)
+    if i>50:
+        break
+        print("Hello")
+ 
+
+Notice how the break command breaks out of the loop once i = 51, and it is used to exit the iteration. Replace 'break' with pass'. You will now see that after the value of i exceeds 50, the string "Hello" is printed. 'Pass' does nothing and allows the remaining code to be executed. If you now replace 'pass' with 'continue', you will notice that the keyword "Hello" isn't printed at all, but the values of i are. The reason behind this is that 'continue' exits that iteration and moves to the next one, not allowing anything below it to be executed. 'Pass', on the other hand, allows for statements to be executed below it in the loop.
+
+ 
+
+A while loop is used when you aren't sure of the number of iterations you need to have. It should be used when your results depend on the value of a variable
+
+d = {0, 1, 2}
+for x in d:
+    print(d.add(x))
+(Each space in the options represents a new line.)
+
+
+None None None
+✓ Correct
+Feedback:
+
+Comprehensions
+Python comprehensions are syntactic constructs that enable sequences to be built from other sequences in a clear and concise manner. Here, we will cover list comprehensions and dictionary comprehensions.
+d.add(x) returns None; hence, only None gets printed.
