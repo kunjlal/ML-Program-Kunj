@@ -55,3 +55,36 @@ Yes, NumPy arrays can be created using a tuple. Any sequence that has an array-l
 
 To summarise, similar to lists, you can subset your data through conditions based on your requirements in NumPy arrays. To do this, you need to use logical operators such as ‘<’ and ‘>’. NumPy also has a few inbuilt functions such as max(), min() and mean(), which allow you to calculate statistically important data over the data directly. In the following video, Behzad will explore these functions and also summarise the learnings of this segment.
 
+A multidimensional array is an array of arrays. For example, a two-dimensional array would be an array with each element as a one-dimensional array. 
+
+1-D array : [1, 2, 3, 4, 5]
+2-D array : [ [1, 2, 3, 4, 5], [6, 7, 8, 9, 10] ]
+
+ NumPy arrays have certain features that help in analysing multidimensional arrays. Some features are as follows:
+
+shape: It represents the shape of an array as the number of elements in each dimension.
+ndim: It represents the number of dimensions of an array. For a 2D array, ndim = 2.
+
+Similar to 1D arrays, nD arrays can also operate on individual elements without using list comprehensions or loops. The following video will give you a small demonstration of operating on nD arrays. 
+
+ you learnt how to convert lists or tuples to arrays using np.array(). There are other ways in which you can create arrays. The following ways are commonly used when you know the size of the array beforehand:
+
+np.ones(): It is used to create an array of 1s.
+np.zeros(): It is used to create an array of 0s.
+np.random.randint(): It is used to create a random array of integers within a particular range.
+np.random.random(): It is used to create an array of random numbers.
+np.arange(): It is used to create an array with increments of fixed step size.
+np.linspace(): It is used to create an array of fixed length.
+
+np.full(): It is used to create a constant array of any number ‘n’.
+np.tile(): It is used to create a new array by repeating an existing array for a particular number of times.
+np.eye(): It is used to create an identity matrix of any dimension
+
+hstack: It puts two arrays with the same number of rows together. By using this command, the number of rows stays the same, while the number of columns increases. 
+vstack: It puts two arrays on top of each other. This command works only when the number of columns in both the arrays is the same. This command can only change the number rows of an array. 
+reshape: It can change the shape of an array as long as the number of elements in the array before and after the reshape operation is the same. 
+
+Once you have created an array, you may also want to run aggregation operations on the data stored in it. An aggregation function helps you summarise the numerical dat
+
+
+The objective of this segment is to cover the mathematical capabilities of NumPy. Note that these mathematical functions might not be of direct use for you. In actual practice as a data scientist, you might not use these functions, but the advanced functions that you will use will be built using these functions. So, it would help if you remember that the NumPy library has all of these capabilities. 
