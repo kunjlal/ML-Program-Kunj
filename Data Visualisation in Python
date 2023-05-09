@@ -1,1 +1,28 @@
+Introduction to Matplotlib
 
+Data visualisation is an important skill to possess for anyone trying to extract and communicate insights from data. Great business narratives and presentations often stem from brilliant visualisations that convey the key ideas in a concise and aesthetic manner. In the field of machine learning, visualisation plays a key role throughout the entire process of analysis - to obtain relationships, observe trends and portray the final results as well. Therefore, it is imperative that you learn and master this tool which will aid you throughout this program.
+
+
+how to visualise data in Python using the Matplotlib library.
+
+visualise the arrays using another library in Python, namely, Matplotlib. 
+
+Data visualisation is a crucial step in the process of data analysis
+
+Creating and plotting graphs
+Different chart types
+Modification of charts for better understanding and presentation
+
+“There are three kinds of lies: lies, damned lies, and statistics.” - Mark Twain
+The Necessity of Data Visualisation
+Facts and Dimensions
+
+Graphics and visuals, when used intelligently and innovatively, can convey a lot more than what raw data alone can. Matplotlib serves the purpose of providing multiple functions to build graphs from the data stored in your lists, arrays, etc. So, let’s start with the first lecture on Matplotlib.
+
+ 
+
+Before we start discussing different types of plots, you need to learn about the elements that help us create charts and plots effectively. There are two types of data, which are as follows:
+
+Facts
+
+Dimensions
