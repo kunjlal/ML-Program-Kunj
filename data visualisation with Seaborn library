@@ -29,5 +29,9 @@ Using a pair-plot, you were able to see multiple scatter plots and draw several 
 After that, you utilised estimator functions along with bar plots as well as box plots to observe the spread of ratings across the different Content Rating Categories. Here, your main observation was that Everyone category has a lot of apps having very low ratings.
 Finally, you created a heat map comparing the ratings across different Reviews and Content Rating buckets.
 
+Plotly is a Python library used for creating interactive visual charts. You can take a look at how you can use it to create aesthetic looking plots with a lot of user-friendly functionalities like hover, zoom
+
+
+
 
 
