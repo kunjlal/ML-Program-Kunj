@@ -1,1 +1,21 @@
+*The terms “Probability Density” and “Probability Density Curve” may seem a bit alien to you right now if you do not have the necessary statistical background. But don’t worry, you will learn about them in a future module on Inferential Statistics. However, if you’re still curious, you can take a look at this link for further understanding.
+Another chart analogous to the histogram is the countplot. It essentially plots the frequency of values for a categorical variable. Basically, the values are the same as when you take a value_counts() for that variable. 
+
+one of the biggest advantages of using Seaborn is that you can retain its aesthetic properties and also the Matplotlib functionalities to perform additional customisations.
+
+What about two numeric columns, say Rating and Size? If you want to plot the relationship between two numeric variables, you will be using something known as a scatter plot
+
+Scatter plots are perhaps one of the most commonly used as well one of the most powerful visualisations you can use in the field of machine learning. They are pretty crucial in revealing relationships between the data points and you can generally deduce some sort of trends in the data with the help of a scatter plot. 
+
+Using the sns.jointplot() you also saw how to create reg plots that provide regression functionality on the top of the scatter plot and histograms that are already available
+
+That “Everyone” category has the highest number of ratings in the lower percentiles as compared to the other categories.
+The median values are all comparable, which was discovered in the previous views as well.
+The upper fences for all the categories get capped at 5.0, whereas there are some observable differences in the lower fences.
+
+The IQR or the inter-quartile range serves a very useful purpose.
+
+Heat maps also utilise the same concept of using colours and colour intensities to visualise a range of values. You must have seen heat maps in cricket or football broadcasts on television to denote the players’ areas of strength and weakness.
+
+
 
