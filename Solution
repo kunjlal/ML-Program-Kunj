@@ -1,0 +1,5 @@
+import pandas as pd
+customer = pd.read_csv('https://media-doselect.s3.amazonaws.com/generic/9B2ZPE1apMvqrLWx7p8ge9dqX/cust_dimen.csv')
+
+customer['Cust_id'] = customer['Cust_id'].map(lambda x: x.strip('Cust_'))
+print(customer.head(10))
